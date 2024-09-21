@@ -1,0 +1,70 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url(/img/descripcion.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-clip: padding-box;
+    background-position: center;
+    background-color: #110000;
+    image-rendering: auto;
+    background-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+}
+
+header {
+    min-height: 70px;
+    display: flex;
+    background-color: #110000;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 65px;
+    margin-right: 12px;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 11px;
+}
+
+nav a:hover {
+    color: rgb(255, 251, 251);
+}
+
+@media (max-with: 680px) {
+    header {
+        flex-direction: column;
+    }
+    nav {
+        padding: 10px 0px;
+    }
+}
+
+@font-face {
+    font-family: adidas;
+    src: url(/fonts/ITC\ Avant\ Garde\ Gothic\ LT\ Medium.ttf);
+    font-style: medium;
+}
+
+h2 {
+    font-family: 'adidas', sans-serif;
+    
+}
+
+header:hover {
+    color: whitea;
+}
